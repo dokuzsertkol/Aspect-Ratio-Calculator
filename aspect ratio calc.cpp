@@ -16,6 +16,7 @@ int main() {
 			
 			width /= i;
 			height /= i;
+			i--;
 		}
 	}
 	

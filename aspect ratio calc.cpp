@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main() {
 	
 	std::cout << "Coded by EmreHero~\n\n";
@@ -13,7 +12,6 @@ int main() {
 	std::cin >> height;
 	
 	for(int i = 2; i <= height && i <= width; i++) {
-		
 		if (width%i == 0 && height % i == 0) {
 			
 			width /= i;
